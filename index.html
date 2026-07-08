@@ -255,45 +255,65 @@
         </div>
     </section>
 
-    <!-- Contact & Map Form -->
-     
+        <!-- Contact & Map Section -->
+    <section id="contact" class="py-16 bg-brand-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Contact & Location</h2>
+                <div class="w-24 h-1 bg-brand-primary mx-auto rounded"></div>
+            </div>
+
+            <div class="flex flex-col lg:flex-row bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
                 
-                
-                <!-- Info & Map Area -->
-                <div class="lg:w-1/2 bg-gray-50 flex flex-col">
-                    <div class="p-8 md:p-12 bg-gray-900 text-white">
-                        <h3 class="text-xl font-bold mb-4">Kitchen Details</h3>
-                        <div class="space-y-4">
-                            <p class="flex items-start gap-3">
-                                <i class="fa-solid fa-location-dot mt-1 text-brand-primary"></i>
-                                <span>Street No.6, Vikas Vihar East,<br>Vikas Nagar, Hastsal, Delhi, 110059</span>
-                            </p>
-                            <p class="flex items-center gap-3">
-                                <i class="fa-solid fa-phone text-brand-primary"></i>
-                                <span>+91 93191 71315</span>
-                            </p>
-                            <p class="flex items-center gap-3">
-                                <i class="fa-solid fa-clock text-brand-primary"></i>
-                                <span>Mon - Sun: 9:00 AM – 9:00 PM</span>
-                            </p>
+                <!-- Contact Details Area (Left) -->
+                <div class="lg:w-1/2 p-8 md:p-12 bg-gray-900 text-white flex flex-col justify-center">
+                    <h3 class="text-3xl font-bold mb-8 text-brand-primary">Get in Touch</h3>
+                    
+                    <div class="space-y-6">
+                        <p class="flex items-start gap-4 text-lg">
+                            <i class="fa-solid fa-location-dot mt-1 text-brand-primary text-xl"></i>
+                            <span>Street No.6, Vikas Vihar East,<br>Vikas Nagar, Hastsal, Delhi, 110059</span>
+                        </p>
+                        <p class="flex items-center gap-4 text-lg">
+                            <i class="fa-solid fa-clock text-brand-primary text-xl"></i>
+                            <span>Mon - Sun: 9:00 AM – 9:00 PM</span>
+                        </p>
+                        <p class="flex items-center gap-4 text-lg">
+                            <i class="fa-solid fa-phone text-brand-primary text-xl"></i>
+                            <span>+91 93191 71315</span>
+                        </p>
+                        
+                        <!-- Divider -->
+                        <div class="pt-6 mt-6 border-t border-gray-700">
+                            <p class="text-sm text-gray-400 mb-3">Alternative Contact</p>
+                            <a href="https://wa.me/919910892766" target="_blank" class="flex items-center gap-3 text-lg hover:text-green-400 transition cursor-pointer">
+                                <i class="fa-brands fa-whatsapp text-green-400 text-2xl"></i>
+                                <span>+91 9910892766 <span class="block text-sm text-gray-400 mt-1">(WhatsApp Only - Indocs Media)</span></span>
+                            </a>
                         </div>
                     </div>
-                    <!-- Embedded Map -->
-                    <div class="flex-grow min-h-[300px]">
-                        <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1m3!1d14008.114827184234!2d77.03698885!3d28.62890195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d051c22d1f04b%3A0x6a0c0b3b4f620f4c!2sVikas%20Nagar%2C%20Hastsal%2C%20Delhi!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" 
-                            width="100%" 
-                            height="100%" 
-                            style="border:0;" 
-                            allowfullscreen="" 
-                            loading="lazy" 
-                            referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
-                    </div>
                 </div>
+                
+                <!-- Embedded Map Area (Right) -->
+                <div class="lg:w-1/2 min-h-[400px]">
+                    <iframe 
+                        width="100%" 
+                        height="100%" 
+                        frameborder="0" 
+                        scrolling="no" 
+                        marginheight="0" 
+                        marginwidth="0" 
+                        src="https://maps.google.com/maps?q=Street+No.6,+Vikas+Vihar+East,+Vikas+Nagar,+Hastsal,+Delhi,+110059&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+                
             </div>
         </div>
     </section>
+
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-gray-300 py-10 border-t border-gray-800 text-center">
